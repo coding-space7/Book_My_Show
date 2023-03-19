@@ -24,8 +24,10 @@ public class Ticket {
     private int id;
 
     private String movieName;
-    private LocalDate localDate;
-    private LocalTime localTime;
+    private LocalDate showDate;
+    private LocalTime showTime;
+    private int totalAmount;
+    private String bookedSeats;
 
     private String ticketId = UUID.randomUUID().toString();
     private String theatreName;
